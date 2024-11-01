@@ -1,6 +1,4 @@
-let texto1 = "hoje o dia está ";
-let texto2 = "bonito";
+const date = new Date();
 
-let resultado = texto1 +     texto2;
-
-console.log(resultado);
+console.log(typeof(date));
+console.log(date.getDay());
