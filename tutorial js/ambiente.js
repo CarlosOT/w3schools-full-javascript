@@ -1,8 +1,6 @@
-const cars = {type:"fiat", model:"500", color:"white"}
+let texto1 = "a";
+let texto2 = "b";
 
+let resultado = texto1 < texto2;
 
-console.log(cars);
-cars.color = "red";
-console.log(cars);
-cars.type = "toyota";   
-console.log(cars);
+console.log(resultado);
