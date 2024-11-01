@@ -1,12 +1,8 @@
-const cars = ["ford", "bmw","volks","toyota"];
+const cars = {type:"fiat", model:"500", color:"white"}
 
 
 console.log(cars);
-console.log(cars[3] = "mercedes");
-console.log(cars)
-console.log(cars.length);
-cars.push("gol");
-console.log(cars.length);
-cars[0] = "nada"
-console.log(cars)
-console.log(typeof(cars));
+cars.color = "red";
+console.log(cars);
+cars.type = "toyota";
+console.log(cars);
