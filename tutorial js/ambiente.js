@@ -1,4 +1,6 @@
-const date = new Date();
+const pessoa = {nome:"", sobrenome:"", idade:""};
 
-console.log(typeof(date));
-console.log(date.getFullYear);
+pessoa.nome = "carlos";
+pessoa.sobrenome = "teixeira";
+pessoa.idade = 28;
+console.log(pessoa);
