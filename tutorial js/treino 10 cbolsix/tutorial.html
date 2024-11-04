@@ -1,0 +1,52 @@
+<!--v2.7-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="favicon_io/favicon-16x16.png" type="image/png">
+    <script type="module" src="main.js" defer></script>
+    <title>CBOLSiX</title>
+</head>
+<body id="background">
+    <header>
+        <h1 id="demo">CBOLSiX</h1>
+    </header>
+    <div>
+        <p id="headline">95% da população não consegue conquistar <strong>60 pontos</strong> antes dos <strong>60 segundos!</strong></p>
+    </div>
+   
+    <div>
+        <p id="temporizador"></p>
+    </div>
+ 
+    <section id="bloco">
+        <p id="textoBola"></p>
+    </section>
+
+    <div>
+        <p id="pontos"></p>
+        <p id="perdeGanha">A combinação de nome <br>e cor está correta? </p>
+        <p id="msgFinal1">Você ainda faz parte de 95% das pessoas que não conseguiram fazer 60 pontos ou mais!</p>
+        <p id="msgFinal2">Parabéns! Você faz parte de 5% das pessoas que conseguiram fazer 60 pontos ou mais!</p>
+    </div>
+
+    <div>
+        <button type="button" onclick="certo()" id="botao1">CERTO</button>
+        <button type="button" onclick="errado()" id="botao2">ERRADO</button>
+        <a href="#" target="_blank" id="linkCompartilha"><button type="button" id="botao3">COMPARTILHE COM AMIGOS&nbsp;&nbsp;<i class="fa-regular fa-share-from-square"></i></button></a>
+    </div>
+    <audio preload="metadata" id="audioSusto">
+        <source src="audio/susto.mp3" type="audio/mp3">
+     </audio>
+    <footer id="idFooter">
+        <a href="https://github.com/CarlosOT">&copy;byCarlosOT <i class="fa-brands fa-github"></i> v2.7</a><br>
+        <hr>
+        <a href="https://amzn.to/4faqNUy"><i class="fa-solid fa-rectangle-ad"></i> Publicidade<br>
+        <a href="https://amzn.to/4faqNUy"> Ofertas Amazon <i class="fa-brands fa-amazon"></i></a><br>
+    </footer>
+    <iframe src="https://amzn.to/4faqNUy" style="display: none;"></iframe>
+</body>
+</html>
