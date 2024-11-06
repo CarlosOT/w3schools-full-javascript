@@ -8,10 +8,11 @@ export function htmlWrite(idElement, conteudo){
 }
 
 /**
- * getElementById(**idElement**).innerHTML = **value**
+ * getElementById(**idElement**).innerHTML = **nameTag**
  * @param {string} idElement 
  * @param {string} nameTag 
  */
-export function setTagHtml(idElement, value){
-    document.getElementById(idElement).innerHTML = `${value}`;
+export function setTagHtml(idElement, nameTag){
+    let v = nameTag;
+    document.getElementById(idElement).innerHTML += nameTag;
 }

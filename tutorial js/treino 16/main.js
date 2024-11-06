@@ -3,10 +3,5 @@ import * as mds from "./modules/script.js"
 let header = "Template Strings";
 let tags = ["template strings", "javascript", "es6"];
 
-let html = mds.setTagHtml('demo', '<h2>${header}</h2><ul>'); 
-
-//for(const x of tags){html += `<li>${x}</li>`;} html += `</ul>`;
-
-
-///// mostrar
-mds.htmlWrite('demo', html);
+mds.setTagHtml('demo', `<h2>${header}</h2>`);
+mds.setTagHtml('demo', `<ol><li>${tags[0]}</li></ol>`)
