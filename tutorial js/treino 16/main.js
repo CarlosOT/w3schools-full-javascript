@@ -1,1 +1,0 @@
-import * as mds from "./modules/script.js"
