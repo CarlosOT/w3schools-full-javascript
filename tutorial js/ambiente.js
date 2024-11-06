@@ -1,9 +1,6 @@
+let price = 10;
+let vat = 0.25;
 
-let sobrenome = 'teixeira';
-let nome = 
-`
-Carlos 
-"Juninho"
-${sobrenome}
-`;
-console.log(nome);
+let total = `Total: ${(price * (1+vat)).toFixed(2)}`;
+
+console.log(total);
