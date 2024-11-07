@@ -12,7 +12,7 @@ export function htmlWrite(idElement, conteudo){
  * @param {string} idElement 
  * @param {string} nameTag 
  */
-export function setTagHtml(idElement, nameTag){
+export function setBodyTag(idElement, nameTag){
     let v = nameTag;
     document.getElementById(idElement).innerHTML += nameTag;
 }
