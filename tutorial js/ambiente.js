@@ -1,7 +1,5 @@
-const fruits = ['banana', 'orange', 'apple'];
-const fruits2 = ['melancia', 'abacaxi', 'kiwi'];
-const fruits3 = ['maracujá', 'pêssego'];
+const fruits = ['banana', 'orange', 'apple', 'melancia'];
 
-const allFruits = fruits.concat(fruits2, fruits3);
+const testeCopy = fruits.copyWithin(0, 2, 3);
 
-console.log(allFruits);
+console.log(testeCopy);
