@@ -1,5 +1,10 @@
 const fruits = ['banana', 'orange', 'apple'];
 
-const testJoin = fruits.join(" */ ");
+fruits.pop();
+console.log(fruits);
 
-console.log(testJoin);
+fruits.shift();
+console.log(fruits);
+
+fruits.unshift('lemon');
+console.log(fruits);
