@@ -1,10 +1,7 @@
 const fruits = ['banana', 'orange', 'apple'];
+const fruits2 = ['melancia', 'abacaxi', 'kiwi'];
+const fruits3 = ['maracujá', 'pêssego'];
 
-fruits.pop();
-console.log(fruits);
+const allFruits = fruits.concat(fruits2, fruits3);
 
-fruits.shift();
-console.log(fruits);
-
-fruits.unshift('lemon');
-console.log(fruits);
+console.log(allFruits);
