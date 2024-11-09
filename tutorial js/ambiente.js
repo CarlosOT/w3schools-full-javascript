@@ -1,4 +1,13 @@
-let myFunction = (a, b) => a * b;
+// function ola(){
+//     return "hello world!";
+// }
 
+// hello = function(){
+//     return "hello world!";
+// }
 
-console.log(myFunction(2,6));   
+hello = () => {
+    return "Hello World";
+}
+
+console.log(hello());   
