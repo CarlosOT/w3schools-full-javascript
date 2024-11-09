@@ -1,4 +1,4 @@
 const fruits = ["Banana", "Orange", "Apple", "Mango", "Abacaxi"];
-const newArray = fruits.slice(1,3);
+const newArray = fruits.toString();
 
-console.log(newArray);
+console.log(fruits);
