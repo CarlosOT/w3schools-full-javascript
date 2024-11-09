@@ -1,4 +1,3 @@
-const fruits = ["Banana", "Orange", "Apple", "Mango", "Abacaxi"];
-const newArray = fruits.toString();
+const fruits = ["Banana", "Orange", "Apple", "Mango", "Banana", "Abacaxi"];
 
-console.log(fruits);
+console.log(fruits.lastIndexOf('Banana'));
