@@ -1,8 +1,4 @@
-const numbers = [4, 9, 16, 25, 29];
-let first = numbers.findIndex(myFunction);
+const temp = [27, 28, 30, 40, 42, 35, 30];
+let high = temp.findLast(x => x > 40);
 
-function myFunction(value, index, array) {
-  return value > 18;
-}
-
-console.log(first);
+console.log(high);
