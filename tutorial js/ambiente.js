@@ -6,8 +6,11 @@
 //     return "hello world!";
 // }
 
-hello = () => {
-    return "Hello World";
+/**
+ * @param {string} texto 
+ */
+hello = (texto) => {
+    return texto;
 }
 
-console.log(hello());   
+console.log(hello('teste'));   
