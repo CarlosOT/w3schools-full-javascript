@@ -1,4 +1,4 @@
 let myFunction = (a, b) => a * b;
 
 
-console.log(myFunction(2,6));
+console.log(myFunction(2,6));   
