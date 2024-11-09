@@ -1,5 +1,8 @@
-let fruits = ["Banana", "Orange", "Apple", "Mango", "Banana", "Abacaxi"];
-fruits = fruits.toString().toLocaleLowerCase();
+const numbers = [4, 9, 16, 25, 29];
+let first = numbers.find(myFunction);
 
-console.log(fruits);
-console.log(fruits.includes('banana'));
+function myFunction(value, index, array){
+    return value > 18;
+}
+
+console.log(first);
