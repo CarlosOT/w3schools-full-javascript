@@ -1,5 +1,4 @@
-const fruits = ['banana', 'orange', 'apple', 'melancia'];
+const myArr = [1,2,3,4,5,6];
+const newArr = myArr.flatMap(x => [x, x * 10]);
 
-const testeCopy = fruits.copyWithin(0, 2, 3);
-
-console.log(testeCopy);
+console.log(newArr);
