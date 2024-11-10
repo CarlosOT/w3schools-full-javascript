@@ -13,4 +13,4 @@ hello = (texto) => {
     return texto;
 }
 
-console.log(hello('teste'));   
+console.log(hello('teste'));
