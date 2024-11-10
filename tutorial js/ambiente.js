@@ -1,16 +1,4 @@
-// function ola(){
-//     return "hello world!";
-// }
+const fruits = ['Banana', 'Laranja', 'Acerola', 'Melancia']
 
-// hello = function(){
-//     return "hello world!";
-// }
-
-/**
- * @param {string} texto 
- */
-hello = (texto) => {
-    return texto;
-}
-
-console.log(hello('teste'));
+const sortFruits = fruits.toSorted();
+console.log(fruits);
