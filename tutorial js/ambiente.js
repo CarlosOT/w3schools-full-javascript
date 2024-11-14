@@ -1,10 +1,10 @@
-const points = [40, 100, 1, 5, 25, 10];
+const numbers = [45, 4, 9, 16, 25];
+let txt = "";
 
-for (let i = points.length -1; i > 0; i--) {
-  let j = Math.floor(Math.random() * (i+1));
-  let k = points[i];
-  points[i] = points[j];
-  points[j] = k;
+numbers.forEach(myFunction);
+
+function myFunction(value) {
+  txt += `${value} \n`;
 }
 
-console.log(points);
+console.log(txt);
