@@ -1,4 +1,8 @@
-const myArr = [1, 2, 3, 4, 5, 6];
-const newArr = myArr.flatMap((x) => x * 2);
+const numbers = [45, 4, 9, 16, 25];
+const over18 = numbers.filter(myFunction);
 
-console.log(newArr);  
+function myFunction(value) {
+  return value > 18;
+}
+
+console.log(over18);
