@@ -1,6 +1,6 @@
 var i = 0;
 var txt = 'Lorem ipsum typing effect!';
-var speed = 50;
+var speed = 100;
 
 function typeWriter(){
   if (i < txt.length){
@@ -9,4 +9,5 @@ function typeWriter(){
     setTimeout(typeWriter, speed);
   }
 }
+
 typeWriter();
