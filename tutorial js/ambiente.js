@@ -1,8 +1,8 @@
 const numbers = [45, 4, 9, 16, 25];
-const over18 = numbers.filter(myFunction);
+let sum = numbers.reduce(myFunction);
 
-function myFunction(value) {
-  return value < 18;
+function myFunction(total, value) {
+  return total + value;
 }
 
-console.log(over18);
+console.log(sum);
