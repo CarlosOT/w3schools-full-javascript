@@ -1,10 +1,8 @@
-const numbers = [45, 4, 9, 16, 25];
-let txt = "";
+const numbers1 = [45, 4, 9, 16, 25];
+const numbers2 = numbers1.map(multiplicarArray);
 
-numbers.forEach(myFunction);
-
-function myFunction(value) {
-  txt += `${value} \n`;
+function multiplicarArray(value) {
+  return value * 2;
 }
 
-console.log(txt);
+console.log(numbers2);
