@@ -1,8 +1,4 @@
-const numbers1 = [45, 4, 9, 16, 25];
-const numbers2 = numbers1.map(multiplicarArray);
+const myArr = [1, 2, 3, 4, 5, 6];
+const newArr = myArr.flatMap((x) => x * 2);
 
-function multiplicarArray(value) {
-  return value * 2;
-}
-
-console.log(numbers2);
+console.log(newArr);  
