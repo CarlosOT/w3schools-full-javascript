@@ -1,8 +1,12 @@
-const numbers = [45, 4, 9, 16, 25];
-let allOver18 = numbers.every(myFunction);
+var i = 0;
+var txt = 'Lorem ipsum typing effect!';
+var speed = 50;
 
-function myFunction(value) {
-  return value > 18;
+function typeWriter(){
+  if (i < txt.length){
+    console.log(txt.charAt(i));
+    i++;
+    setTimeout(typeWriter, speed);
+  }
 }
-
-console.log(allOver18);
+typeWriter();
