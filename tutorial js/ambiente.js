@@ -1,6 +1,4 @@
-const fruits = ['banana','maça','batata'];
-const keys = fruits.entries();
+const months = ["Januar", "Februar", "Mar", "April"];
+const myMonths = months.with(2, "March");
 
-for (let x of keys){
-  console.log(x);
-}
+console.log(months);
