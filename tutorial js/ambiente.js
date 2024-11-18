@@ -1,13 +1,6 @@
-var i = 0;
-var txt = 'Lorem ipsum typing effect!';
-var speed = 100;
+const fruits = [1,3,4];
+const keys = fruits.keys();
 
-function typeWriter(){
-  if (i < txt.length){
-    console.log(txt.charAt(i));
-    i++;
-    setTimeout(typeWriter, speed);
-  }
+for (let x of keys){
+  console.log(x);
 }
-
-typeWriter();
