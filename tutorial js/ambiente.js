@@ -4,6 +4,6 @@ const wholeYear = [...semester1, ...semester2];
 
 
 const d = new Date();
-let month = wholeYear[d.getMonth()];
+let month = wholeYear.at(d.getMonth());
 
 console.log(month);
