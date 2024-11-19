@@ -1,6 +1,9 @@
-const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const semester1 = ["January", "February", "March", "April", "May", "June"];
+const semester2 = ["July", "August", "September", "October", "November", "December"];
+const wholeYear = [...semester1, ...semester2];
+
 
 const d = new Date();
-let month = months[d.getMonth()];
+let month = wholeYear[d.getMonth()];
 
 console.log(month);
