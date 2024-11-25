@@ -1,9 +1,8 @@
-const semester1 = ["January", "February", "March", "April", "May", "June"];
-const semester2 = ["July", "August", "September", "October", "November", "December"];
-const wholeYear = [...semester1, ...semester2];
+let age = Number("trtry");
+if (isNaN(age)) {
+  voteable = "Input is not a number";
+} else {
+  voteable = (age < 18) ? "Too young" : "Old enough";
+}
 
-
-const d = new Date();
-let month = wholeYear.at(d.getMonth());
-
-console.log(month);
+console.log(voteable);
