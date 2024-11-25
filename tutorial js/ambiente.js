@@ -1,8 +1,4 @@
-let age = Number("trtry");
-if (isNaN(age)) {
-  voteable = "Input is not a number";
-} else {
-  voteable = (age < 18) ? "Too young" : "Old enough";
-}
+// Create an object:
+const car = {type:"Fiat", model:"500", color:"white"};
 
-console.log(voteable);
+console.log(car.name);
