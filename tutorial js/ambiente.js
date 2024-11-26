@@ -1,4 +1,7 @@
-// Create an object:
-const car = {type:"Fiat", model:"500", color:"white"};
+const cars = ["ford", "mustang", "toro"];
 
-console.log(car.name);
+for (let i = 0, len = cars.length, text = ""; i < len; i++){
+    text += cars[i] + " ";
+    console.log(text);
+}
+
