@@ -1,7 +1,8 @@
-const cars = ["ford", "mustang", "toro"];
-
-for (let i = 0, len = cars.length, text = ""; i < len; i++){
-    text += cars[i] + " ";
-    console.log(text);
+const cars = ["ford", "chevette"];
+let i = 0;
+let len = cars.length;
+let text = "";
+for (; i < len; i++) {
+  text += cars[i] + " ";
+  console.log(text);
 }
-
