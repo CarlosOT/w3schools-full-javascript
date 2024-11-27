@@ -1,9 +1,9 @@
-const cars = ["ford", "chevette"];
-let i = 0;
-let len = cars.length;
+const person = {fname:"John", lname:"Doe", age:25};
+
 let text = "";
-for (; i < len; ) {
-  text += cars[i] + " ";
-  i++;
-  console.log(text);
+for (let x in person) {
+  text += person[x] + " ";
 }
+
+console.log(text);
+console.log(person.fname);
