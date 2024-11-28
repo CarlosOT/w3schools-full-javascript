@@ -1,9 +1,10 @@
-const person = {fname:"John", lname:"Doe", age:25};
-
+const cars = ["BMW", "Volvo", "Saab", "Ford"];
+let i = 0;
 let text = "";
-for (let x in person) {
-  text += person[x] + " ";
+
+for (;cars[i];) {
+  text += cars[i] + " ";
+  i++;
 }
 
 console.log(text);
-console.log(person.fname);
