@@ -2,7 +2,12 @@ const cars = ["BMW", "Volvo", "Saab", "Ford"];
 let i = 0;
 let text = "";
 
-for (;cars[i];) {
+// for (;cars[i];) {
+//   text += cars[i] + " ";
+//   i++;
+// }
+
+while (cars[i]) {
   text += cars[i] + " ";
   i++;
 }
