@@ -1,14 +1,14 @@
+// Create Objects
+const apples = {name: 'Apples'};
+const bananas = {name: 'Bananas'};
+const oranges = {name: 'Oranges'};
+
 // Create a Map
-const fruits = new Map([
-  ["apples", 500],
-  ["bananas", 300],
-  ["oranges", 200]
-]);
+const fruits = new Map();
 
-fruits.set("Kiwi", 100);
-fruits.set("Kiwi", 150);
+// Add new Elements to the Map
+fruits.set(apples, 500);
+fruits.set(bananas, 300);
+fruits.set(oranges, 200);
 
-console.log(fruits instanceof Map);
-console.log(fruits.get("bananas"));
-console.log(typeof fruits);
-console.log(fruits);
+console.log(fruits.get(apples));
