@@ -1,15 +1,14 @@
-const letters = new Set(['a','b','c']);
-letters.add('d');
+// Create a Map
+const fruits = new Map([
+  ["apples", 500],
+  ["bananas", 300],
+  ["oranges", 200]
+]);
 
-console.log(typeof letters);
-console.log(letters.size);
-console.log(letters.values());
-console.log(letters.keys());
-console.log(letters);
+fruits.set("Kiwi", 100);
+fruits.set("Kiwi", 150);
 
-let text = '';
-for (const x of letters){
-  text += x + ' ';
-}
-
-console.log(text);
+console.log(fruits instanceof Map);
+console.log(fruits.get("bananas"));
+console.log(typeof fruits);
+console.log(fruits);
