@@ -1,15 +1,4 @@
-const cars = ["BMW", "Volvo", "Saab", "Ford"];
-let i = 0;
-let text = "";
+const letters = new Set(['a','b','c']);
+ 
 
-// for (;cars[i];) {
-//   text += cars[i] + " ";
-//   i++;
-// }
-
-while (cars[i]) {
-  text += cars[i] + " ";
-  i++;
-}
-
-console.log(text);
+console.log(typeof letters);
